@@ -51,7 +51,9 @@ app.get('*', function(req, res) {
       }
     });
   }
-}).listen(1337);
+});
+
+app.listen(1337);
 
 // We are up...
 console.log('Server running on port 1337');
